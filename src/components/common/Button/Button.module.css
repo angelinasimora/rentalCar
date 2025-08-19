@@ -1,0 +1,35 @@
+
+.basicBtnStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+    line-height: 1.25;
+
+    transition: all var(--transition-style);
+}
+
+.filledButton {
+    border: none;
+    background-color: var(--button);
+
+    color: var(--white);
+}
+
+.filledButton:hover {
+    background-color: var(--button-hover);
+}
+
+.borderedButton {
+    border: 1px solid var(--button);
+    background-color: transparent;
+
+    color: var(--main);
+}
+
+.borderedButton:hover {
+    border: 1px solid var(--button-hover); }

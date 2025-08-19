@@ -1,0 +1,61 @@
+/* .logo {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+} */
+.header {
+    border-bottom: 1px solid var(--badges);
+        padding: 24px 120px;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 68px;
+        margin-bottom: 4px;
+}
+.container {
+    width: 100%;
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+}
+
+.logoCar {
+    color: #4e6cff;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navLink {
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link:hover,
+.link.active {
+    color: #0B44CD;
+}
+.active {
+    color: var(--button-hover);}

@@ -1,0 +1,20 @@
+.container {
+margin-top: 84px;
+}
+/* 
+innerContainer formContainer imgContainer  */
+
+.img{
+    border-radius: 19px;
+        width: 640px;
+        height: 512px;
+};
+ /*  title carId adressContainer adress mileage price description sectionTitle rentalList rentalItem icon specificationsList specificationsItem accessoriesList accessoriesItem */
+
+/* .info{
+    text-align: right;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+} */

@@ -1,0 +1,108 @@
+.card {
+    position: relative;
+    width: 276px;
+    min-height: 424px;
+    background-color: transparent;
+    border: none;
+    padding-top: 268px;
+}
+
+.imageWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 268px;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.heartBtn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    transition: fill 0.3s;
+}
+
+.iconActive {
+    fill: #3470ff;
+}
+
+.iconInactive {
+    fill: white;
+}
+
+.textBlock {
+    padding: 16px  0;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.brand .year {
+    color: #121417;
+}
+
+.model {
+    color: #3470ff;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #8a8a89;
+    margin-top: 8px;
+}
+
+.location{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: var(--gray);
+}
+.price {
+        font-weight: 500;
+        font-size: 16px;
+}
+
+.readMoreBtn {
+    margin-top: 12px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px 97px;
+    width: 276px;
+    height: 44px;
+    text-align: center;
+}
